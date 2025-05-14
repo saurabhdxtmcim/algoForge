@@ -105,7 +105,7 @@ class SinglyLinkedList{
         if(index < 0 || index >= this.length || !this.head) return null;
         let indexedNode = this.head;
         let i = 0
-        while(i<=index){
+        while(i < index){
             indexedNode = indexedNode.next;
             i++;
         }
@@ -164,7 +164,7 @@ class SinglyLinkedList{
     // If the index is equal to the length - 1, it calls the pop method to remove the last node.
     // If the index is in the middle, it finds the previous node and updates its next pointer to skip the node to be removed.
     remove(index){
-        if(index < 0 || index > this.length) return false;
+        if(index < 0 || index > this.length) return undefined;
         if(index == 0){
             this.length--;
            return this.shift();
