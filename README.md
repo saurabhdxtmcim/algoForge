@@ -68,7 +68,7 @@ A comprehensive collection of essential **JavaScript** implementations for data 
 
 ```bash
 git clone https://github.com/saurabhdxtmcim/algoForge.git
-cd <repo-name>
+cd algoForge
 node folder/fileName.js
 ```
 
