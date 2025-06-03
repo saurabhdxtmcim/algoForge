@@ -83,10 +83,8 @@ node mergeSort.js
 
 ## ✅ Use Cases
 
-* 💼 Technical interviews
 * 🎓 CS fundamentals practice
 * 🧪 Testing custom data structures
-* 📚 Educational demos & workshops
 
 ---
 
